@@ -1,0 +1,79 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;  
+  }
+  
+  /* Element Selectors */
+  body {
+    position: relative;
+    font-family: "Constantia", "Lucida Bright", "DejaVu Serif", serif;
+    font-size: 30px; 
+  }
+  
+  h1,
+  h2 {
+    margin: 20px;
+  }
+
+  section {
+    height: 800px;
+    width: 100%;
+    position: relative;
+  }
+
+  header {
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    border-bottom: 10px solid orange;
+    background-color: darkblue;
+    color: lightblue;;
+  }
+
+  footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    border-bottom: 10px solid orange;
+    background-color: darkblue;
+    color: lightblue;;
+  }
+
+  p {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  /* Class Selectors */
+  .text-center {
+    position: relative ;
+    text-align: center;
+  }
+
+  .middle-align-h2 {
+    padding-top: 280px;
+  }
+
+  .middle-align-p {
+    padding-top: 30px;
+  }
+
+  .centre-box {
+      position: absolute;
+      margin-left: 430px;
+      margin-top: 200px;
+      height: 300px;
+      width: 800px;
+      border: 10px solid;
+      color: darkblue;
+      background-color: lightblue;
+  }
+
+  /* id Selectors */
+  #page-bottom {
+    position: absolute;
+    bottom: 0px;
+}
+  
